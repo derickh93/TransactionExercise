@@ -21,5 +21,5 @@ Start the server using 'node .' in the terminal
 
 ## Retrieve all transactions by DateRange based on DateFields
 1. Using postman select a Get request 
-2. Enter '[localhost:8080/transaction/id](http://localhost:8080/transaction/?dateFrom=fromDate&dateTo=toDate)' in the get request URL field with fromDate as the floor of your search and toDate as the ceiling.
+2. Enter 'http://localhost:8080/transaction/?dateFrom=fromDate&dateTo=toDate' in the get request URL field with fromDate as the floor of your search and toDate as the ceiling.
 3. The requested transaction data will be returned if found or else a message stating 'Transaction not found' will be returned
